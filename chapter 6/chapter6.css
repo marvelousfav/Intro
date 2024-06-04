@@ -1,0 +1,88 @@
+body {
+    font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
+p {
+    font-size: 5em;
+    /*changes the font of the I <3*/
+}
+
+.eye {
+    background-color: rgb(42, 42, 117);
+    width: 30%;
+    height: 30%;
+    border-radius: 30%;
+}
+
+.arm {
+    background-color: #d3a5a5;
+    position: absolute;
+    top: 35%;
+    width: 8%;
+    height: 40%;
+}
+
+#head {
+    width: 30%;
+    height: 30%;
+    border-radius: 10%;
+    background-color: #dadada;
+    position: absolute;
+    left: 31%;
+    top: 5%;
+}
+
+#righteye {
+    position: absolute;
+    left: 10%;
+    top: 20%;
+}
+
+#lefteye {
+    position: absolute;
+    left: 60%;
+    top: 20%;
+}
+
+#nose {
+    position: absolute;
+    left: 45%;
+    top: 50%;
+    width: 10%;
+    border-radius: 50%;
+    height: 10%;
+    background-color: black;
+}
+
+#mouth {
+    position: absolute;
+    width: 60%;
+    border-radius: 0%;
+    height: 20%;
+    left: 20%;
+    top: 70%;
+    background-color: rgb(242, 245, 245);
+}
+
+#body {
+    position: absolute;
+    left: 25%;
+    top: 35%;
+    width: 45%;
+    height: 55%;
+    background-color: #c78d8d;
+    text-align: center;
+    padding-top: 30px;
+}
+
+#rightarm {
+    position: absolute;
+    left: 20%;
+}
+
+#leftarm {
+    position: absolute;
+    left: 70%;
+    width: 27%;
+    height: 5%;
+}
